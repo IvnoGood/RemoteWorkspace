@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disk",
+    "name": "Sans Undertale",
+    "description": "LIsten to music it's big brain time",
+    "creativeTab": {
+      "value": "CUSTOM:SuperThings"
+    },
+    "music": {
+      "value": "CUSTOM:sansundertale"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

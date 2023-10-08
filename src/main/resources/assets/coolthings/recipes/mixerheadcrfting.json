@@ -1,0 +1,29 @@
+{
+  "group": "coolthings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "coolthings:superstick"
+    },
+    "4": {
+      "item": "coolthings:superstick"
+    },
+    "6": {
+      "item": "minecraft:stone",
+      "data": 32767
+    },
+    "8": {
+      "item": "minecraft:stone",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "coolthings:mixerhead",
+    "count": 1
+  }
+}

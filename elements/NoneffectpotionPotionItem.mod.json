@@ -1,0 +1,21 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Noneffectpotion",
+    "splashName": "Splash Noneffectpotion",
+    "lingeringName": "Lingering Noneffectpotion",
+    "arrowName": "Arrow of Noneffectpotion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Noneffectpotion"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

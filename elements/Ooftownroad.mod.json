@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "ooftownroad",
+    "name": "Oof town road",
+    "description": "Oof town road like a boss",
+    "creativeTab": {
+      "value": "CUSTOM:SuperThings"
+    },
+    "music": {
+      "value": "CUSTOM:oof_town_road"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

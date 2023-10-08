@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "coolthings:superpowder"
+    },
+    "1": {
+      "item": "coolthings:superpowder"
+    },
+    "2": {
+      "item": "coolthings:superpowder"
+    },
+    "3": {
+      "item": "coolthings:superpowder"
+    },
+    "4": {
+      "item": "coolthings:superpowder"
+    },
+    "5": {
+      "item": "coolthings:superpowder"
+    },
+    "6": {
+      "item": "coolthings:superpowder"
+    },
+    "7": {
+      "item": "coolthings:superpowder"
+    },
+    "8": {
+      "item": "coolthings:superpowder"
+    }
+  },
+  "result": {
+    "item": "coolthings:superingot",
+    "count": 1
+  }
+}

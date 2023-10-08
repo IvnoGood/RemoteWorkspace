@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coolthings:blocks/crusher_bottom",
+    "up": "coolthings:blocks/crusher_top",
+    "north": "coolthings:blocks/crusher",
+    "east": "coolthings:blocks/crusher",
+    "south": "coolthings:blocks/crusher",
+    "west": "coolthings:blocks/crusher",
+    "particle": "coolthings:blocks/crusher_bottom"
+  }
+}

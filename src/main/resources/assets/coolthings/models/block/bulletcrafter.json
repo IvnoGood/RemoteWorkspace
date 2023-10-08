@@ -1,0 +1,11 @@
+{
+  "parent": "coolthings:custom/compactor",
+  "textures": {
+    "all": "coolthings:blocks/compactor",
+    "particle": "coolthings:blocks/compactor",
+    "1": "coolthings:blocks/anvil_base",
+    "2": "coolthings:blocks/iron_block",
+    "3": "coolthings:blocks/flower_pot",
+    "4": "coolthings:blocks/itemframe_background"
+  }
+}

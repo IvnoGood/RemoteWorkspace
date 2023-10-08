@@ -1,0 +1,37 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "supertool",
+    "customModelName": "Normal",
+    "name": "Supertool",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SuperThings"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 7,
+    "efficiency": 7.0,
+    "attackSpeed": 6.0,
+    "enchantability": 6,
+    "damageVsEntity": 13.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Superbblock"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "SupertoolRightClickedInAir"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "SupertoolBlockDestroyedWithTool"
+    }
+  }
+}

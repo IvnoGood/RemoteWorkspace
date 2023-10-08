@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "coolthings:superfluid",
+    "coolthings:flowing_superfluid",
+    "coolthings:milk",
+    "coolthings:flowing_milk"
+  ]
+}

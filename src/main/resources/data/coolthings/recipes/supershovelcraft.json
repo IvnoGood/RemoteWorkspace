@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "coolthings:superingot"
+    },
+    "1": {
+      "item": "coolthings:superstick"
+    },
+    "2": {
+      "item": "coolthings:superstick"
+    }
+  },
+  "result": {
+    "item": "coolthings:supershovel",
+    "count": 1
+  }
+}

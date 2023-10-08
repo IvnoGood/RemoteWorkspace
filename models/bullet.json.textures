@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bone_block_top"
+      },
+      "name": "default"
+    }
+  }
+}

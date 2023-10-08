@@ -1,0 +1,21 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Superpotion",
+    "splashName": "Splash Superpotion",
+    "lingeringName": "Lingering Superpotion",
+    "arrowName": "Arrow of Superpotion",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Superpotion"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

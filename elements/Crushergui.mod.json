@@ -1,0 +1,95 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 177,
+    "height": 173,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Crusher",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Crusher",
+          "x": 195,
+          "y": 39
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16763905,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 75
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 258,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "crush",
+          "onClick": {
+            "name": "Crusherbutton"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "crush",
+          "x": 186,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cost 5xp",
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "name": "Cost 5xp",
+          "x": 191,
+          "y": 101
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

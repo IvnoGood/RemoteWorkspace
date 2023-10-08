@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ssupershovel",
+    "customModelName": "Normal",
+    "name": "Supershovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SuperThings"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 6.0,
+    "attackSpeed": 2.0,
+    "enchantability": 5,
+    "damageVsEntity": 4.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Superingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

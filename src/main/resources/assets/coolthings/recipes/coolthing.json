@@ -1,0 +1,30 @@
+{
+  "group": "coolthings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "coolthings:superingot"
+    },
+    "3": {
+      "item": "coolthings:superingot"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "coolthings:superingot"
+    },
+    "7": {
+      "item": "coolthings:superingot"
+    }
+  },
+  "result": {
+    "item": "coolthings:superstick",
+    "count": 1
+  }
+}

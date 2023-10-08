@@ -1,0 +1,119 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 175,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Black Market",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Black Market",
+          "x": 184,
+          "y": 38
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "Cheat",
+          "x": 151,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Put any block/Item you want",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Put any block/Item you want",
+          "x": 146,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "BUY",
+          "onClick": {
+            "name": "Buyatblackmarket"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "BUY",
+          "x": 196,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3 diamond blocks",
+          "color": {
+            "value": -16724788,
+            "falpha": 0.0
+          },
+          "name": "3 diamond blocks",
+          "x": 174,
+          "y": 103
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -13434676,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 84
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 249,
+          "y": 84
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

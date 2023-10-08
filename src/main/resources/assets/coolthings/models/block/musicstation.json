@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coolthings:blocks/planksmodified2",
+    "up": "coolthings:blocks/musicstation",
+    "north": "coolthings:blocks/modifiedplanks",
+    "east": "coolthings:blocks/modifiedplanks",
+    "south": "coolthings:blocks/modifiedplanks",
+    "west": "coolthings:blocks/modifiedplanks",
+    "particle": "coolthings:blocks/planksmodified2"
+  }
+}

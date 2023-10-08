@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "coolthings:blocks/superplant",
+    "particle": "coolthings:blocks/superplant"
+  }
+}

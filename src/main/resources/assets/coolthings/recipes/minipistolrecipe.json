@@ -1,0 +1,26 @@
+{
+  "group": "coolthings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "coolthings:gunheader"
+    },
+    "1": {
+      "item": "coolthings:superingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "coolthings:charger"
+    }
+  },
+  "result": {
+    "item": "coolthings:waitcapturer",
+    "count": 1
+  }
+}

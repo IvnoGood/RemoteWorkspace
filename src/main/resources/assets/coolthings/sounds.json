@@ -1,0 +1,47 @@
+{
+  "sans": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "coolthings:sans",
+        "stream": true
+      }
+    ]
+  },
+  "sansundertale": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "coolthings:ndertale__-_sans._xtended_-_opie",
+        "stream": true
+      }
+    ]
+  },
+  "oof_town_road": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "coolthings:___ld_own_oad_oblox___1",
+        "stream": true
+      }
+    ]
+  },
+  "megalovania": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "coolthings:ndertale__-_egalovania_xtended",
+        "stream": true
+      }
+    ]
+  },
+  "rush_e": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "coolthings:_",
+        "stream": true
+      }
+    ]
+  }
+}

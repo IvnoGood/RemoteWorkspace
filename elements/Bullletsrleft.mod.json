@@ -1,0 +1,44 @@
+{
+  "_fv": 28,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:bulletsremaining>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:bulletsremaining>",
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "bullets left in your inventory",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "bullets left in your inventory",
+          "x": 1,
+          "y": 11
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

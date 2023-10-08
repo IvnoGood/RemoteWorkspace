@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "coolthings:electronic_circuit"
+    },
+    "3": {
+      "item": "minecraft:chest"
+    },
+    "4": {
+      "item": "coolthings:memorychip"
+    },
+    "5": {
+      "item": "minecraft:chest"
+    },
+    "7": {
+      "item": "coolthings:electronic_circuit"
+    }
+  },
+  "result": {
+    "item": "coolthings:harddrive",
+    "count": 1
+  }
+}

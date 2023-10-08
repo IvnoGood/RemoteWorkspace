@@ -1,0 +1,39 @@
+{
+  "group": "coolthings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "coolthings:superplate"
+    },
+    "2": {
+      "item": "coolthings:superplate"
+    },
+    "3": {
+      "item": "coolthings:superplate"
+    },
+    "4": {
+      "item": "coolthings:superplate"
+    },
+    "5": {
+      "item": "coolthings:superplate"
+    },
+    "6": {
+      "item": "coolthings:superplate"
+    },
+    "7": {
+      "item": "coolthings:superplate"
+    },
+    "8": {
+      "item": "coolthings:superplate"
+    }
+  },
+  "result": {
+    "item": "coolthings:superarmorbody",
+    "count": 1
+  }
+}

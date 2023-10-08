@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_block"
+    },
+    "3": {
+      "item": "coolthings:superingot"
+    },
+    "4": {
+      "item": "coolthings:electronic_circuit"
+    },
+    "5": {
+      "item": "coolthings:superingot"
+    },
+    "7": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "coolthings:memorychip",
+    "count": 1
+  }
+}

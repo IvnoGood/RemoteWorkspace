@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Superplate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Superplate"
+      },
+      {
+        "value": "CUSTOM:Superplate"
+      },
+      {
+        "value": "CUSTOM:Superplate"
+      },
+      {
+        "value": "CUSTOM:Superplate"
+      },
+      {
+        "value": "CUSTOM:Superplate"
+      },
+      {
+        "value": "CUSTOM:Superplate"
+      },
+      {
+        "value": "CUSTOM:Superplate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Superarmor.body"
+    },
+    "name": "superchestplate",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "coolthings:blocks/superblock",
+    "particle": "coolthings:blocks/superblock"
+  }
+}

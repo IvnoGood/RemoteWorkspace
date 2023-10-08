@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "megalovania",
+    "name": "Undertale Megalovania",
+    "description": "Just sit and profite",
+    "creativeTab": {
+      "value": "CUSTOM:SuperThings"
+    },
+    "music": {
+      "value": "CUSTOM:megalovania"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

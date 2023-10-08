@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Super Things",
+    "icon": {
+      "value": "CUSTOM:Superblock"
+    },
+    "showSearch": true
+  }
+}

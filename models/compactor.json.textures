@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "anvil_base",
+        "2": "iron_block",
+        "3": "flower_pot",
+        "4": "itemframe_background"
+      },
+      "name": "default"
+    }
+  }
+}

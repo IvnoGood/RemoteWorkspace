@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "coolthings:block/ultimatedimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "coolthings:block/ultimatedimension_portal_ns"
+    }
+  }
+}

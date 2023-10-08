@@ -1,0 +1,9 @@
+{
+  "parent": "coolthings:custom/gin",
+  "textures": {
+    "0": "coolthings:blocks/iron_block",
+    "1": "coolthings:blocks/planks_oak",
+    "missing": "coolthings:blocks/",
+    "particle": "coolthings:items/gun"
+  }
+}

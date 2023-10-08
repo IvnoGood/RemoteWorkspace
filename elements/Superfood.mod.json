@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "superfood",
+    "customModelName": "Normal",
+    "name": "Superfood",
+    "creativeTab": {
+      "value": "CUSTOM:Superfoods"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 13.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

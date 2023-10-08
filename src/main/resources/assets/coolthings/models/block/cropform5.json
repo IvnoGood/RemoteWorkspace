@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "coolthings:blocks/cropform5",
+    "particle": "coolthings:blocks/cropform5"
+  }
+}

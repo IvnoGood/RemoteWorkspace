@@ -1,0 +1,7 @@
+{
+  "parent": "coolthings:custom/bullet",
+  "textures": {
+    "0": "coolthings:blocks/bone_block_top",
+    "particle": "coolthings:items/bullet"
+  }
+}

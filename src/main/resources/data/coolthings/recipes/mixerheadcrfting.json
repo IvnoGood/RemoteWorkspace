@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "coolthings:superstick"
+    },
+    "4": {
+      "item": "coolthings:superstick"
+    },
+    "6": {
+      "tag": "forge:stone"
+    },
+    "8": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "coolthings:mixerhead",
+    "count": 1
+  }
+}

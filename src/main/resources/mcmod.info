@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "coolthings",
+    "name": "coolthings",
+    "description": "there is maythings",
+    "version": "1.0.0",
+    "credits": "Thanks for me to be a crackhead",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://www.youtube.com/channel/UC7CVEl1RqaEgoBykdMu4rNQ",
+    "updateUrl": "",
+    "authorList": [
+      "IvnoGood"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

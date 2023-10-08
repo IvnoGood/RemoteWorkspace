@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "superaxe",
+    "customModelName": "Normal",
+    "name": "Superaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SuperThings"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 6.0,
+    "attackSpeed": 2.0,
+    "enchantability": 5,
+    "damageVsEntity": 6.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Superingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

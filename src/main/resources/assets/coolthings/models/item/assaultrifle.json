@@ -1,0 +1,8 @@
+{
+  "parent": "coolthings:custom/fusil",
+  "textures": {
+    "0": "coolthings:blocks/concrete_black",
+    "1": "coolthings:blocks/concrete_gray",
+    "particle": "coolthings:items/assault_rifle"
+  }
+}

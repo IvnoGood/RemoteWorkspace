@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Not specified"
+
+[[mods]]
+modId="coolthings"
+version="1.0.0"
+displayName="coolthings"
+credits="Thanks for me to be a crackhead"
+displayURL="https://www.youtube.com/channel/UC7CVEl1RqaEgoBykdMu4rNQ"
+authors="IvnoGood"
+description='''
+there is maythings
+'''
+
+[[dependencies.coolthings]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

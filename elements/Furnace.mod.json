@@ -1,0 +1,116 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 171,
+    "height": 168,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16777012,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 75
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 177,
+          "y": 75
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 258,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "burn",
+          "onClick": {
+            "name": "Furnacebutton"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "burn",
+          "x": 211,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Furnace",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Furnace",
+          "x": 195,
+          "y": 39
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1xp",
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "name": "1xp",
+          "x": 222,
+          "y": 95
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "rushe",
+    "name": "Rush E",
+    "description": "A russian song",
+    "creativeTab": {
+      "value": "CUSTOM:SuperThings"
+    },
+    "music": {
+      "value": "CUSTOM:rush_e"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

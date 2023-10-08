@@ -1,0 +1,46 @@
+{
+  "group": "coolthings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    "1": {
+      "item": "coolthings:superpowder"
+    },
+    "2": {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    "3": {
+      "item": "coolthings:superpowder"
+    },
+    "4": {
+      "item": "minecraft:tnt"
+    },
+    "5": {
+      "item": "coolthings:superpowder"
+    },
+    "6": {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    "7": {
+      "item": "coolthings:superpowder"
+    },
+    "8": {
+      "item": "minecraft:sand",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "coolthings:fjjffightnt",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "coolthings",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "coolthings:superingot"
+    },
+    "1": {
+      "item": "coolthings:superingot"
+    },
+    "2": {
+      "item": "coolthings:superingot"
+    },
+    "3": {
+      "item": "coolthings:superingot"
+    },
+    "4": {
+      "item": "coolthings:superingot"
+    },
+    "5": {
+      "item": "coolthings:superingot"
+    },
+    "6": {
+      "item": "coolthings:superingot"
+    },
+    "7": {
+      "item": "coolthings:superingot"
+    },
+    "8": {
+      "item": "coolthings:superingot"
+    }
+  },
+  "result": {
+    "item": "coolthings:superbblock",
+    "count": 1
+  }
+}

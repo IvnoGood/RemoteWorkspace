@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "coolthings:superingot"
+    },
+    "1": {
+      "item": "coolthings:superingot"
+    },
+    "2": {
+      "item": "coolthings:superingot"
+    },
+    "4": {
+      "item": "coolthings:superstick"
+    },
+    "7": {
+      "item": "coolthings:superstick"
+    }
+  },
+  "result": {
+    "item": "coolthings:superpickaxe",
+    "count": 1
+  }
+}

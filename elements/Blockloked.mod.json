@@ -1,0 +1,57 @@
+{
+  "_fv": 28,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": " pos x:<x>  y:<y>  z: <z>.",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": " pos x:<x>  y:<y>  z: <z>.",
+          "x": 296,
+          "y": 13
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dimension: <VAR:dimensionid>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Dimension: <VAR:dimensionid>",
+          "x": 287,
+          "y": 23
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:temperatuure>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:temperatuure>",
+          "x": 346,
+          "y": 33
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
