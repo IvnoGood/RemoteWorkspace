@@ -52,7 +52,7 @@ public class CraftkeyMessage {
 			return;
 		if (type == 0) {
 
-			CraftkeyprocedureProcedure.execute(world, entity);
+			CraftkeyprocedureProcedure.execute();
 		}
 	}
 

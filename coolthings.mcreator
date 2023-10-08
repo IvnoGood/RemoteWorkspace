@@ -832,7 +832,7 @@
       "name": "Breadfurnaceburn",
       "type": "procedure",
       "sortid": 67,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "metadata": {
         "dependencies": [
@@ -1426,19 +1426,10 @@
       "name": "Craftkeyprocedure",
       "type": "procedure",
       "sortid": 112,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -1915,26 +1906,12 @@
       "locked_code": false
     },
     {
-      "name": "SuperpotionPotionItem",
-      "type": "potion",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false
-    },
-    {
       "name": "Superpotion",
       "type": "potioneffect",
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "superpotion_potion_item"
-    },
-    {
-      "name": "NoneffectpotionPotionItem",
-      "type": "potion",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false
     },
     {
       "name": "Noneffectpotion",

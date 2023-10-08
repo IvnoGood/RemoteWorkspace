@@ -41,7 +41,7 @@ public class CoolthingsModTabs {
 		TAB_SUPERFOODS = new CreativeModeTab("tabsuperfoods") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(CoolthingsModItems.NORMALBREAD.get());
+				return new ItemStack(CoolthingsModItems.ULTIMATEBREAD.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
