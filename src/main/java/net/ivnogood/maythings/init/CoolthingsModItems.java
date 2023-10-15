@@ -17,7 +17,6 @@ import net.minecraft.world.item.BlockItem;
 import net.ivnogood.maythings.item.WaitcapturerItem;
 import net.ivnogood.maythings.item.UndertaleMegalovaniaItem;
 import net.ivnogood.maythings.item.UltimatepastaItem;
-import net.ivnogood.maythings.item.UltimatedimensionItem;
 import net.ivnogood.maythings.item.UltimatebreadItem;
 import net.ivnogood.maythings.item.SupertoolItem;
 import net.ivnogood.maythings.item.SuperswordItem;
@@ -25,7 +24,6 @@ import net.ivnogood.maythings.item.SuperstickItem;
 import net.ivnogood.maythings.item.SupershovelItem;
 import net.ivnogood.maythings.item.SuperpowderItem;
 import net.ivnogood.maythings.item.SuperplateItem;
-import net.ivnogood.maythings.item.SuperpickaxeItem;
 import net.ivnogood.maythings.item.SuperingotItem;
 import net.ivnogood.maythings.item.SuperaxeItem;
 import net.ivnogood.maythings.item.SuperarmorItem;
@@ -70,12 +68,10 @@ public class CoolthingsModItems {
 	public static final RegistryObject<Item> EGG = REGISTRY.register("egg_spawn_egg",
 			() -> new ForgeSpawnEggItem(CoolthingsModEntities.EGG, -1, -16777216, new Item.Properties().tab(CoolthingsModTabs.TAB_SUPER_THINGS)));
 	public static final RegistryObject<Item> SUPERSTICK = REGISTRY.register("superstick", () -> new SuperstickItem());
-	public static final RegistryObject<Item> SUPERPICKAXE = REGISTRY.register("superpickaxe", () -> new SuperpickaxeItem());
 	public static final RegistryObject<Item> SUPERAXE = REGISTRY.register("superaxe", () -> new SuperaxeItem());
 	public static final RegistryObject<Item> SUPERTOOL = REGISTRY.register("supertool", () -> new SupertoolItem());
 	public static final RegistryObject<Item> SUPERBBLOCK = block(CoolthingsModBlocks.SUPERBBLOCK, CoolthingsModTabs.TAB_SUPER_THINGS);
 	public static final RegistryObject<Item> GENERATIONBLOCK = block(CoolthingsModBlocks.GENERATIONBLOCK, CoolthingsModTabs.TAB_SUPER_THINGS);
-	public static final RegistryObject<Item> ULTIMATEDIMENSION = REGISTRY.register("ultimatedimension", () -> new UltimatedimensionItem());
 	public static final RegistryObject<Item> PLANTISIDE = block(CoolthingsModBlocks.PLANTISIDE, CoolthingsModTabs.TAB_SUPER_THINGS);
 	public static final RegistryObject<Item> SANS = REGISTRY.register("sans", () -> new SansItem());
 	public static final RegistryObject<Item> EMPTYDISK = REGISTRY.register("emptydisk", () -> new EmptydiskItem());
@@ -135,6 +131,7 @@ public class CoolthingsModItems {
 	public static final RegistryObject<Item> RUSH_E_RECIPEPAPER = REGISTRY.register("rush_e_recipepaper", () -> new Rush_E_recipepaperItem());
 	public static final RegistryObject<Item> THEBLACKLION = REGISTRY.register("theblacklion_spawn_egg",
 			() -> new ForgeSpawnEggItem(CoolthingsModEntities.THEBLACKLION, -1, -1, new Item.Properties().tab(CoolthingsModTabs.TAB_SUPER_THINGS)));
+	public static final RegistryObject<Item> ATM = block(CoolthingsModBlocks.ATM, CoolthingsModTabs.TAB_SUPER_THINGS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

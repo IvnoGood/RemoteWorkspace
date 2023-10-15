@@ -23,6 +23,8 @@ public class CoolthingsModSounds {
 		REGISTRY.put(new ResourceLocation("coolthings", "oof_town_road"), new SoundEvent(new ResourceLocation("coolthings", "oof_town_road")));
 		REGISTRY.put(new ResourceLocation("coolthings", "megalovania"), new SoundEvent(new ResourceLocation("coolthings", "megalovania")));
 		REGISTRY.put(new ResourceLocation("coolthings", "rush_e"), new SoundEvent(new ResourceLocation("coolthings", "rush_e")));
+		REGISTRY.put(new ResourceLocation("coolthings", "bip"), new SoundEvent(new ResourceLocation("coolthings", "bip")));
+		REGISTRY.put(new ResourceLocation("coolthings", "blender"), new SoundEvent(new ResourceLocation("coolthings", "blender")));
 	}
 
 	@SubscribeEvent

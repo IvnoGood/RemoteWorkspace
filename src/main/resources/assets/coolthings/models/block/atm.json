@@ -1,0 +1,13 @@
+{
+  "parent": "coolthings:custom/atm",
+  "textures": {
+    "all": "coolthings:blocks/ecran",
+    "particle": "coolthings:blocks/ecran",
+    "0": "coolthings:blocks/bouton_grand",
+    "2": "coolthings:blocks/bouton_petit2",
+    "5": "coolthings:blocks/atm_structure",
+    "6": "coolthings:blocks/contours",
+    "7": "coolthings:blocks/ecran",
+    "8": "coolthings:blocks/clavier_dessous"
+  }
+}

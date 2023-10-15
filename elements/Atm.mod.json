@@ -2,14 +2,14 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "superore",
+    "texture": "ecran",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 2,
+    "customModelName": "atm:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -19,7 +19,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Superore",
+    "name": "Atm",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -41,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:SuperThings"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -121,14 +121,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "SuperblockBlockDestroyedByPlayer"
-    },
-    "spawnWorldTypes": [
-      "Surface",
-      "Nether",
-      "End"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -139,6 +132,6 @@
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 256
+    "maxGenerateHeight": 64
   }
 }

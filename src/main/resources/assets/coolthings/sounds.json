@@ -43,5 +43,23 @@
         "stream": true
       }
     ]
+  },
+  "bip": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "coolthings:bip",
+        "stream": false
+      }
+    ]
+  },
+  "blender": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "coolthings:little-blender-102947",
+        "stream": false
+      }
+    ]
   }
 }

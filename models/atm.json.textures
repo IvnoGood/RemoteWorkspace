@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bouton_grand",
+        "2": "bouton_petit2",
+        "5": "atm_structure",
+        "6": "contours",
+        "7": "ecran",
+        "8": "clavier_dessous"
+      },
+      "name": "default"
+    }
+  }
+}

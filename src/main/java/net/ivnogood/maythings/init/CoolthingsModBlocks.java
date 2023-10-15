@@ -14,7 +14,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.ivnogood.maythings.block.UltimatedimensionPortalBlock;
 import net.ivnogood.maythings.block.SuperfluidBlock;
 import net.ivnogood.maythings.block.SuperchestBlock;
 import net.ivnogood.maythings.block.SuperblockBlock;
@@ -34,6 +33,7 @@ import net.ivnogood.maythings.block.Cropform2Block;
 import net.ivnogood.maythings.block.Cropform1Block;
 import net.ivnogood.maythings.block.BulletcrafterBlock;
 import net.ivnogood.maythings.block.BreadfurnaceblockBlock;
+import net.ivnogood.maythings.block.AtmBlock;
 import net.ivnogood.maythings.CoolthingsMod;
 
 public class CoolthingsModBlocks {
@@ -41,8 +41,6 @@ public class CoolthingsModBlocks {
 	public static final RegistryObject<Block> SUPERBLOCK = REGISTRY.register("superblock", () -> new SuperblockBlock());
 	public static final RegistryObject<Block> SUPERBBLOCK = REGISTRY.register("superbblock", () -> new SuperbblockBlock());
 	public static final RegistryObject<Block> GENERATIONBLOCK = REGISTRY.register("generationblock", () -> new GenerationblockBlock());
-	public static final RegistryObject<Block> ULTIMATEDIMENSION_PORTAL = REGISTRY.register("ultimatedimension_portal",
-			() -> new UltimatedimensionPortalBlock());
 	public static final RegistryObject<Block> SUPERFLUID = REGISTRY.register("superfluid", () -> new SuperfluidBlock());
 	public static final RegistryObject<Block> PLANTISIDE = REGISTRY.register("plantiside", () -> new PlantisideBlock());
 	public static final RegistryObject<Block> MUSICSTATION = REGISTRY.register("musicstation", () -> new MusicstationBlock());
@@ -59,6 +57,7 @@ public class CoolthingsModBlocks {
 	public static final RegistryObject<Block> CROPFORM_5 = REGISTRY.register("cropform_5", () -> new Cropform5Block());
 	public static final RegistryObject<Block> GUNBULLET = REGISTRY.register("gunbullet", () -> new GunbulletBlock());
 	public static final RegistryObject<Block> BULLETCRAFTER = REGISTRY.register("bulletcrafter", () -> new BulletcrafterBlock());
+	public static final RegistryObject<Block> ATM = REGISTRY.register("atm", () -> new AtmBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -74,6 +73,7 @@ public class CoolthingsModBlocks {
 			Cropform5Block.registerRenderLayer();
 			GunbulletBlock.registerRenderLayer();
 			BulletcrafterBlock.registerRenderLayer();
+			AtmBlock.registerRenderLayer();
 		}
 	}
 }

@@ -159,10 +159,10 @@ public class BreadfurnaceburnProcedure {
 			}
 		}.getAmount(1) > 5) && (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 				&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY)
-				.getItem() == CoolthingsModItems.DIAMONDPASTA.get()) {
+				.getItem() == CoolthingsModItems.EMERALDPASTA.get()) {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(CoolthingsModItems.ULTIMATEPASTA.get());
+				ItemStack _setstack = new ItemStack(CoolthingsModItems.EMERALDBREAD.get());
 				_setstack.setCount(1);
 				((Slot) _slots.get(2)).set(_setstack);
 				_player.containerMenu.broadcastChanges();

@@ -16,7 +16,6 @@ import net.ivnogood.maythings.client.gui.MusicstationguiScreen;
 import net.ivnogood.maythings.client.gui.MixerScreen;
 import net.ivnogood.maythings.client.gui.FurnaceScreen;
 import net.ivnogood.maythings.client.gui.CrusherguiScreen;
-import net.ivnogood.maythings.client.gui.CONTAINERGUIScreen;
 import net.ivnogood.maythings.client.gui.BulletcrafterguiScreen;
 import net.ivnogood.maythings.client.gui.BreadfurnaceScreen;
 import net.ivnogood.maythings.client.gui.BlackmarketScreen;
@@ -33,7 +32,6 @@ public class CoolthingsModScreens {
 			MenuScreens.register(CoolthingsModMenus.BREADFURNACE, BreadfurnaceScreen::new);
 			MenuScreens.register(CoolthingsModMenus.FURNACE, FurnaceScreen::new);
 			MenuScreens.register(CoolthingsModMenus.SUPERCONTAINERGUI, SupercontainerguiScreen::new);
-			MenuScreens.register(CoolthingsModMenus.CONTAINERGUI, CONTAINERGUIScreen::new);
 			MenuScreens.register(CoolthingsModMenus.BULLETCRAFTERGUI, BulletcrafterguiScreen::new);
 		});
 	}

@@ -17,7 +17,6 @@ import net.ivnogood.maythings.world.inventory.MusicstationguiMenu;
 import net.ivnogood.maythings.world.inventory.MixerMenu;
 import net.ivnogood.maythings.world.inventory.FurnaceMenu;
 import net.ivnogood.maythings.world.inventory.CrusherguiMenu;
-import net.ivnogood.maythings.world.inventory.CONTAINERGUIMenu;
 import net.ivnogood.maythings.world.inventory.BulletcrafterguiMenu;
 import net.ivnogood.maythings.world.inventory.BreadfurnaceMenu;
 import net.ivnogood.maythings.world.inventory.BlackmarketMenu;
@@ -39,8 +38,6 @@ public class CoolthingsModMenus {
 	public static final MenuType<FurnaceMenu> FURNACE = register("furnace", (id, inv, extraData) -> new FurnaceMenu(id, inv, extraData));
 	public static final MenuType<SupercontainerguiMenu> SUPERCONTAINERGUI = register("supercontainergui",
 			(id, inv, extraData) -> new SupercontainerguiMenu(id, inv, extraData));
-	public static final MenuType<CONTAINERGUIMenu> CONTAINERGUI = register("containergui",
-			(id, inv, extraData) -> new CONTAINERGUIMenu(id, inv, extraData));
 	public static final MenuType<BulletcrafterguiMenu> BULLETCRAFTERGUI = register("bulletcraftergui",
 			(id, inv, extraData) -> new BulletcrafterguiMenu(id, inv, extraData));
 
