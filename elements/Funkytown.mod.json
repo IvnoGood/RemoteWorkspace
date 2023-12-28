@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "funkytown",
+    "name": "Funkytown",
+    "description": "Lipps Inc - Funkytown",
+    "creativeTab": {
+      "value": "CUSTOM:Music"
+    },
+    "music": {
+      "value": "CUSTOM:funkytown"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

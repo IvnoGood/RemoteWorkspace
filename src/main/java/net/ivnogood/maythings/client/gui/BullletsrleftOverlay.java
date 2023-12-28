@@ -6,11 +6,12 @@ import org.checkerframework.checker.units.qual.h;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
-import net.minecraftforge.client.event.RenderGameOverlayEvent;
+import net.minecraftforge.client.event.ScreenEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import net.minecraft.client.Minecraft;
 
 import net.ivnogood.maythings.network.CoolthingsModVariables;
@@ -18,10 +19,10 @@ import net.ivnogood.maythings.network.CoolthingsModVariables;
 @Mod.EventBusSubscriber({Dist.CLIENT})
 public class BullletsrleftOverlay {
 	@SubscribeEvent(priority = EventPriority.NORMAL)
-	public static void eventHandler(RenderGameOverlayEvent.Pre event) {
-		if (event.getType() == RenderGameOverlayEvent.ElementType.ALL) {
-			int w = event.getWindow().getGuiScaledWidth();
-			int h = event.getWindow().getGuiScaledHeight();
+	public static void eventHandler(ScreenEvent.DrawScreenEvent.Post event) {
+		if (event.getScreen() instanceof InventoryScreen) {
+			int w = event.getScreen().width;
+			int h = event.getScreen().height;
 			int posX = w / 2;
 			int posY = h / 2;
 			Level _world = null;
@@ -40,9 +41,9 @@ public class BullletsrleftOverlay {
 			double y = _y;
 			double z = _z;
 			if (true) {
-				Minecraft.getInstance().font.draw(event.getMatrixStack(), "" + (CoolthingsModVariables.bulletsremaining) + "", posX + -212,
-						posY + -119, -16777216);
-				Minecraft.getInstance().font.draw(event.getMatrixStack(), "bullets left in your inventory", posX + -212, posY + -109, -16777216);
+				Minecraft.getInstance().font.draw(event.getPoseStack(), "" + (CoolthingsModVariables.bulletsremaining) + "", posX + -212, posY + -119,
+						-16777216);
+				Minecraft.getInstance().font.draw(event.getPoseStack(), "bullets left in your inventory", posX + -212, posY + -109, -16777216);
 			}
 		}
 	}

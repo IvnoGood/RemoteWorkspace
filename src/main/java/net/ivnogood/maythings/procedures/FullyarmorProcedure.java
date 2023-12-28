@@ -44,13 +44,13 @@ public class FullyarmorProcedure {
 						.get() == (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
 								.getItem()) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 9999, 2));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 2));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 9999, 2));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 100, 2));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 9999, 2));
+				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 100, 2));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 9999, 3));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 1));
 		}
 	}
 }

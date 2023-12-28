@@ -6,7 +6,7 @@
     "name": "Oof town road",
     "description": "Oof town road like a boss",
     "creativeTab": {
-      "value": "CUSTOM:SuperThings"
+      "value": "CUSTOM:Music"
     },
     "music": {
       "value": "CUSTOM:oof_town_road"

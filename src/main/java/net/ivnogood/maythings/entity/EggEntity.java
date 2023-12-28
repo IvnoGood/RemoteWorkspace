@@ -15,7 +15,7 @@ import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.npc.Villager;
+import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -49,7 +49,7 @@ import net.ivnogood.maythings.init.CoolthingsModBlocks;
 import java.util.Set;
 
 @Mod.EventBusSubscriber
-public class EggEntity extends Villager {
+public class EggEntity extends Zombie {
 	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("coolthings:superbiole"), new ResourceLocation("the_end"));
 
 	@SubscribeEvent
@@ -96,7 +96,7 @@ public class EggEntity extends Villager {
 
 	@Override
 	public MobType getMobType() {
-		return MobType.UNDEFINED;
+		return MobType.UNDEAD;
 	}
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
@@ -173,6 +173,7 @@ public class EggEntity extends Villager {
 		builder = builder.add(Attributes.MAX_HEALTH, 50);
 		builder = builder.add(Attributes.ARMOR, 3);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 10);
+		builder = builder.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
 		return builder;
 	}
 }

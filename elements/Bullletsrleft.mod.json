@@ -32,7 +32,7 @@
       }
     ],
     "baseTexture": "",
-    "overlayTarget": "Ingame",
+    "overlayTarget": "Inventory",
     "gridSettings": {
       "sx": 18,
       "sy": 18,

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coolthings:blocks/portalframe",
+    "up": "coolthings:blocks/portalframe",
+    "north": "coolthings:blocks/portalframe",
+    "east": "coolthings:blocks/portalframe",
+    "south": "coolthings:blocks/portalframe",
+    "west": "coolthings:blocks/portalframe",
+    "particle": "coolthings:blocks/portalframe"
+  }
+}

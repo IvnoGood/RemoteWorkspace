@@ -60,7 +60,7 @@ public class SuperbblockBlock extends Block {
 			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.5D;
 			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.5D * 100;
 			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.5D;
-			world.addParticle(ParticleTypes.EXPLOSION, x0, y0, z0, 0, 0, 0);
+			world.addParticle(ParticleTypes.CRIT, x0, y0, z0, 0, 0, 0);
 		}
 	}
 }

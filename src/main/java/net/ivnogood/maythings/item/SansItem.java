@@ -12,6 +12,6 @@ import net.ivnogood.maythings.init.CoolthingsModSounds;
 public class SansItem extends RecordItem {
 	public SansItem() {
 		super(0, CoolthingsModSounds.REGISTRY.get(new ResourceLocation("coolthings:sansundertale")),
-				new Item.Properties().tab(CoolthingsModTabs.TAB_SUPER_THINGS).stacksTo(1).rarity(Rarity.RARE));
+				new Item.Properties().tab(CoolthingsModTabs.TAB_MUSIC).stacksTo(1).rarity(Rarity.RARE));
 	}
 }

@@ -127,5 +127,89 @@ public class ButtonmusicstationProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
+		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
+				? ((Slot) _slt.get(0)).getItem()
+				: ItemStack.EMPTY).getItem() == CoolthingsModItems.EMPTYDISK.get()
+				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
+						.getItem() == CoolthingsModItems.ETREUNCHATRECIPE.get()
+				&& ((entity instanceof Player _plr ? _plr.experienceLevel : 0) == 5
+						|| (entity instanceof Player _plr ? _plr.experienceLevel : 0) > 5)) {
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(CoolthingsModItems.ETREUNCHAT.get());
+				_setstack.setCount(1);
+				((Slot) _slots.get(2)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+			if (entity instanceof Player _player)
+				_player.giveExperienceLevels(-(5));
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(0)).remove(1);
+				_player.containerMenu.broadcastChanges();
+			}
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(1)).remove(1);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
+				? ((Slot) _slt.get(0)).getItem()
+				: ItemStack.EMPTY).getItem() == CoolthingsModItems.EMPTYDISK.get()
+				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
+						.getItem() == CoolthingsModItems.SHESAIDNORECIPE.get()
+				&& ((entity instanceof Player _plr ? _plr.experienceLevel : 0) == 5
+						|| (entity instanceof Player _plr ? _plr.experienceLevel : 0) > 5)) {
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(CoolthingsModItems.SHESAIDNO.get());
+				_setstack.setCount(1);
+				((Slot) _slots.get(2)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+			if (entity instanceof Player _player)
+				_player.giveExperienceLevels(-(5));
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(0)).remove(1);
+				_player.containerMenu.broadcastChanges();
+			}
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(1)).remove(1);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
+				? ((Slot) _slt.get(0)).getItem()
+				: ItemStack.EMPTY).getItem() == CoolthingsModItems.EMPTYDISK.get()
+				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
+						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
+						.getItem() == CoolthingsModItems.FUNKYTOWNRECIPE.get()
+				&& ((entity instanceof Player _plr ? _plr.experienceLevel : 0) == 5
+						|| (entity instanceof Player _plr ? _plr.experienceLevel : 0) > 5)) {
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(CoolthingsModItems.FUNKYTOWN.get());
+				_setstack.setCount(1);
+				((Slot) _slots.get(2)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+			if (entity instanceof Player _player)
+				_player.giveExperienceLevels(-(5));
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(0)).remove(1);
+				_player.containerMenu.broadcastChanges();
+			}
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(1)).remove(1);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
 	}
 }

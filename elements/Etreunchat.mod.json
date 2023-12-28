@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "etreunchat",
+    "name": "Etre un chat",
+    "description": "Etre un chat parodie girls like you par Multicort par multicor",
+    "creativeTab": {
+      "value": "CUSTOM:Music"
+    },
+    "music": {
+      "value": "CUSTOM:etre_un_chat"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -43,7 +43,7 @@ public class SuperpyramidFeature extends Feature<NoneFeatureConfiguration> {
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD,
-			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("coolthings:ultimatedimension")));
+			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("coolthings:deleted_mod_element")));
 	private StructureTemplate template = null;
 
 	public SuperpyramidFeature() {

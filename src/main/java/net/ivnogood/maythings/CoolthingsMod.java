@@ -28,11 +28,13 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.ivnogood.maythings.init.CoolthingsModTabs;
 import net.ivnogood.maythings.init.CoolthingsModPotions;
+import net.ivnogood.maythings.init.CoolthingsModParticleTypes;
 import net.ivnogood.maythings.init.CoolthingsModMobEffects;
 import net.ivnogood.maythings.init.CoolthingsModItems;
 import net.ivnogood.maythings.init.CoolthingsModFluids;
 import net.ivnogood.maythings.init.CoolthingsModFeatures;
 import net.ivnogood.maythings.init.CoolthingsModEntities;
+import net.ivnogood.maythings.init.CoolthingsModEnchantments;
 import net.ivnogood.maythings.init.CoolthingsModBlocks;
 import net.ivnogood.maythings.init.CoolthingsModBlockEntities;
 import net.ivnogood.maythings.init.CoolthingsModBiomes;
@@ -59,11 +61,11 @@ public class CoolthingsMod {
 		CoolthingsModBlockEntities.REGISTRY.register(bus);
 		CoolthingsModFeatures.REGISTRY.register(bus);
 		CoolthingsModFluids.REGISTRY.register(bus);
-
+		CoolthingsModEnchantments.REGISTRY.register(bus);
 		CoolthingsModMobEffects.REGISTRY.register(bus);
 		CoolthingsModPotions.REGISTRY.register(bus);
 		CoolthingsModBiomes.REGISTRY.register(bus);
-
+		CoolthingsModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

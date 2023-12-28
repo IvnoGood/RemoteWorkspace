@@ -25,14 +25,19 @@ import net.ivnogood.maythings.item.SupershovelItem;
 import net.ivnogood.maythings.item.SuperpowderItem;
 import net.ivnogood.maythings.item.SuperplateItem;
 import net.ivnogood.maythings.item.SuperingotItem;
+import net.ivnogood.maythings.item.SuperdimensionItem;
 import net.ivnogood.maythings.item.SuperaxeItem;
 import net.ivnogood.maythings.item.SuperarmorItem;
+import net.ivnogood.maythings.item.ShesaidnorecipeItem;
+import net.ivnogood.maythings.item.ShesaidnoItem;
 import net.ivnogood.maythings.item.SeedItem;
 import net.ivnogood.maythings.item.SansrecipepaperItem;
 import net.ivnogood.maythings.item.SansItem;
 import net.ivnogood.maythings.item.Rush_E_recipepaperItem;
 import net.ivnogood.maythings.item.RushEItem;
 import net.ivnogood.maythings.item.PastaItem;
+import net.ivnogood.maythings.item.PancakepastaItem;
+import net.ivnogood.maythings.item.PancakeItem;
 import net.ivnogood.maythings.item.OoftownroadrecipepaperItem;
 import net.ivnogood.maythings.item.OoftownroadItem;
 import net.ivnogood.maythings.item.MixerheadItem;
@@ -45,7 +50,11 @@ import net.ivnogood.maythings.item.HarddriveItem;
 import net.ivnogood.maythings.item.GunheaderItem;
 import net.ivnogood.maythings.item.GoldpastaItem;
 import net.ivnogood.maythings.item.GoldbreadItem;
+import net.ivnogood.maythings.item.FunkytownrecipeItem;
+import net.ivnogood.maythings.item.FunkytownItem;
 import net.ivnogood.maythings.item.FlourItem;
+import net.ivnogood.maythings.item.EtreunchatrecipeItem;
+import net.ivnogood.maythings.item.EtreunchatItem;
 import net.ivnogood.maythings.item.EmptyybulletItem;
 import net.ivnogood.maythings.item.EmptydiskItem;
 import net.ivnogood.maythings.item.EmeraldpastaItem;
@@ -56,6 +65,7 @@ import net.ivnogood.maythings.item.DiamondbreadItem;
 import net.ivnogood.maythings.item.ChargerItem;
 import net.ivnogood.maythings.item.ButterstickItem;
 import net.ivnogood.maythings.item.BulletItem;
+import net.ivnogood.maythings.item.BasebreadItem;
 import net.ivnogood.maythings.item.AssaultrifleItem;
 import net.ivnogood.maythings.CoolthingsMod;
 
@@ -75,7 +85,7 @@ public class CoolthingsModItems {
 	public static final RegistryObject<Item> PLANTISIDE = block(CoolthingsModBlocks.PLANTISIDE, CoolthingsModTabs.TAB_SUPER_THINGS);
 	public static final RegistryObject<Item> SANS = REGISTRY.register("sans", () -> new SansItem());
 	public static final RegistryObject<Item> EMPTYDISK = REGISTRY.register("emptydisk", () -> new EmptydiskItem());
-	public static final RegistryObject<Item> MUSICSTATION = block(CoolthingsModBlocks.MUSICSTATION, CoolthingsModTabs.TAB_SUPER_THINGS);
+	public static final RegistryObject<Item> MUSICSTATION = block(CoolthingsModBlocks.MUSICSTATION, CoolthingsModTabs.TAB_MUSIC);
 	public static final RegistryObject<Item> ELECTRONIC_CIRCUIT = REGISTRY.register("electronic_circuit", () -> new ElectronicCircuitItem());
 	public static final RegistryObject<Item> MEMORYCHIP = REGISTRY.register("memorychip", () -> new MemorychipItem());
 	public static final RegistryObject<Item> SANSRECIPEPAPER = REGISTRY.register("sansrecipepaper", () -> new SansrecipepaperItem());
@@ -132,6 +142,17 @@ public class CoolthingsModItems {
 	public static final RegistryObject<Item> THEBLACKLION = REGISTRY.register("theblacklion_spawn_egg",
 			() -> new ForgeSpawnEggItem(CoolthingsModEntities.THEBLACKLION, -1, -1, new Item.Properties().tab(CoolthingsModTabs.TAB_SUPER_THINGS)));
 	public static final RegistryObject<Item> ATM = block(CoolthingsModBlocks.ATM, CoolthingsModTabs.TAB_SUPER_THINGS);
+	public static final RegistryObject<Item> ETREUNCHAT = REGISTRY.register("etreunchat", () -> new EtreunchatItem());
+	public static final RegistryObject<Item> SHESAIDNO = REGISTRY.register("shesaidno", () -> new ShesaidnoItem());
+	public static final RegistryObject<Item> SHESAIDNORECIPE = REGISTRY.register("shesaidnorecipe", () -> new ShesaidnorecipeItem());
+	public static final RegistryObject<Item> ETREUNCHATRECIPE = REGISTRY.register("etreunchatrecipe", () -> new EtreunchatrecipeItem());
+	public static final RegistryObject<Item> PORTALBLOCK = block(CoolthingsModBlocks.PORTALBLOCK, CoolthingsModTabs.TAB_SUPER_THINGS);
+	public static final RegistryObject<Item> SUPERDIMENSION = REGISTRY.register("superdimension", () -> new SuperdimensionItem());
+	public static final RegistryObject<Item> FUNKYTOWNRECIPE = REGISTRY.register("funkytownrecipe", () -> new FunkytownrecipeItem());
+	public static final RegistryObject<Item> FUNKYTOWN = REGISTRY.register("funkytown", () -> new FunkytownItem());
+	public static final RegistryObject<Item> BASEBREAD = REGISTRY.register("basebread", () -> new BasebreadItem());
+	public static final RegistryObject<Item> PANCAKE = REGISTRY.register("pancake", () -> new PancakeItem());
+	public static final RegistryObject<Item> PANCAKEPASTA = REGISTRY.register("pancakepasta", () -> new PancakepastaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

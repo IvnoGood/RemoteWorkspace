@@ -10,7 +10,7 @@ import net.ivnogood.maythings.init.CoolthingsModTabs;
 
 public class OoftownroadrecipepaperItem extends Item {
 	public OoftownroadrecipepaperItem() {
-		super(new Item.Properties().tab(CoolthingsModTabs.TAB_SUPER_THINGS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CoolthingsModTabs.TAB_MUSIC).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

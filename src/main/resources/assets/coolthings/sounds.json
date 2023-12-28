@@ -61,5 +61,32 @@
         "stream": false
       }
     ]
+  },
+  "she_said_no": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "coolthings:she-said-no",
+        "stream": true
+      }
+    ]
+  },
+  "etre_un_chat": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "coolthings:_-etre-un-chat_-parodie-minecraft-multicort",
+        "stream": true
+      }
+    ]
+  },
+  "funkytown": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "coolthings:lipps-inc-funkytown",
+        "stream": true
+      }
+    ]
   }
 }

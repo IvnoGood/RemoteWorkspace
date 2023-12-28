@@ -12,6 +12,6 @@ import net.ivnogood.maythings.init.CoolthingsModSounds;
 public class UndertaleMegalovaniaItem extends RecordItem {
 	public UndertaleMegalovaniaItem() {
 		super(0, CoolthingsModSounds.REGISTRY.get(new ResourceLocation("coolthings:megalovania")),
-				new Item.Properties().tab(CoolthingsModTabs.TAB_SUPER_THINGS).stacksTo(1).rarity(Rarity.RARE));
+				new Item.Properties().tab(CoolthingsModTabs.TAB_MUSIC).stacksTo(1).rarity(Rarity.RARE));
 	}
 }

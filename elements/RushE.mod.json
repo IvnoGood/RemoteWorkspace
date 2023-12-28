@@ -6,7 +6,7 @@
     "name": "Rush E",
     "description": "A russian song",
     "creativeTab": {
-      "value": "CUSTOM:SuperThings"
+      "value": "CUSTOM:Music"
     },
     "music": {
       "value": "CUSTOM:rush_e"

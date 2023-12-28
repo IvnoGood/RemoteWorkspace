@@ -15,9 +15,11 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.ivnogood.maythings.block.SuperfluidBlock;
+import net.ivnogood.maythings.block.SuperdimensionPortalBlock;
 import net.ivnogood.maythings.block.SuperchestBlock;
 import net.ivnogood.maythings.block.SuperblockBlock;
 import net.ivnogood.maythings.block.SuperbblockBlock;
+import net.ivnogood.maythings.block.PortalblockBlock;
 import net.ivnogood.maythings.block.PlantisideBlock;
 import net.ivnogood.maythings.block.MusicstationBlock;
 import net.ivnogood.maythings.block.MixerblockBlock;
@@ -58,6 +60,9 @@ public class CoolthingsModBlocks {
 	public static final RegistryObject<Block> GUNBULLET = REGISTRY.register("gunbullet", () -> new GunbulletBlock());
 	public static final RegistryObject<Block> BULLETCRAFTER = REGISTRY.register("bulletcrafter", () -> new BulletcrafterBlock());
 	public static final RegistryObject<Block> ATM = REGISTRY.register("atm", () -> new AtmBlock());
+	public static final RegistryObject<Block> PORTALBLOCK = REGISTRY.register("portalblock", () -> new PortalblockBlock());
+	public static final RegistryObject<Block> SUPERDIMENSION_PORTAL = REGISTRY.register("superdimension_portal",
+			() -> new SuperdimensionPortalBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -74,6 +79,7 @@ public class CoolthingsModBlocks {
 			GunbulletBlock.registerRenderLayer();
 			BulletcrafterBlock.registerRenderLayer();
 			AtmBlock.registerRenderLayer();
+			PortalblockBlock.registerRenderLayer();
 		}
 	}
 }

@@ -14,6 +14,7 @@ public class CoolthingsModTabs {
 	public static CreativeModeTab TAB_SUPER_THINGS;
 	public static CreativeModeTab TAB_SUPERGUNS;
 	public static CreativeModeTab TAB_SUPERFOODS;
+	public static CreativeModeTab TAB_MUSIC;
 
 	public static void load() {
 		TAB_SUPER_THINGS = new CreativeModeTab("tabsuper_things") {
@@ -49,5 +50,16 @@ public class CoolthingsModTabs {
 				return false;
 			}
 		};
+		TAB_MUSIC = new CreativeModeTab("tabmusic") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(CoolthingsModItems.UNDERTALE_MEGALOVANIA.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return true;
+			}
+		}.setBackgroundSuffix("item_search.png");
 	}
 }

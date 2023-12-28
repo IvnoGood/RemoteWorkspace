@@ -251,7 +251,8 @@
       "locked_code": false,
       "metadata": {
         "gb": false
-      }
+      },
+      "path": "~/autres"
     },
     {
       "name": "Plantiside",
@@ -267,7 +268,7 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "path": "~/music"
+      "path": "~/music/discs"
     },
     {
       "name": "Emptydisk",
@@ -403,7 +404,7 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "path": "~/music"
+      "path": "~/music/recipes"
     },
     {
       "name": "Musictextsans",
@@ -470,7 +471,8 @@
       "type": "item",
       "sortid": 40,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "path": "~/autres"
     },
     {
       "name": "Milk",
@@ -480,7 +482,8 @@
       "locked_code": false,
       "metadata": {
         "gb": true
-      }
+      },
+      "path": "~/autres"
     },
     {
       "name": "Milkbutter",
@@ -507,7 +510,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/autres"
     },
     {
       "name": "Crushergui",
@@ -1047,7 +1051,7 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "path": "~/music"
+      "path": "~/music/discs"
     },
     {
       "name": "UndertaleMegalovania",
@@ -1055,7 +1059,7 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "path": "~/music"
+      "path": "~/music/discs"
     },
     {
       "name": "Superbiole",
@@ -1070,7 +1074,8 @@
       "type": "block",
       "sortid": 92,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "path": "~/autres"
     },
     {
       "name": "Tntnboummm",
@@ -1101,7 +1106,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/autres"
     },
     {
       "name": "TNTBOUMBOUMTNT",
@@ -1128,14 +1134,16 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/autres"
     },
     {
       "name": "SUPERTNTCRAFT",
       "type": "recipe",
       "sortid": 95,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "path": "~/autres"
     },
     {
       "name": "GodCommandExecuted",
@@ -1457,7 +1465,8 @@
       "type": "recipe",
       "sortid": 113,
       "compiles": true,
-      "locked_code": false
+      "locked_code": false,
+      "path": "~/autres"
     },
     {
       "name": "Breakcrop",
@@ -1741,14 +1750,6 @@
       "path": "~/machines"
     },
     {
-      "name": "Blockloked",
-      "type": "overlay",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "path": "~/guns"
-    },
-    {
       "name": "Assaultrifle",
       "type": "rangeditem",
       "sortid": 129,
@@ -1854,7 +1855,7 @@
       "sortid": 139,
       "compiles": true,
       "locked_code": false,
-      "path": "~/music"
+      "path": "~/music/recipes"
     },
     {
       "name": "Megalovaniarecipepaper",
@@ -1862,7 +1863,7 @@
       "sortid": 140,
       "compiles": true,
       "locked_code": false,
-      "path": "~/music"
+      "path": "~/music/recipes"
     },
     {
       "name": "RushE",
@@ -1870,7 +1871,7 @@
       "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "path": "~/music"
+      "path": "~/music/discs"
     },
     {
       "name": "Rush_E_recipepaper",
@@ -1878,7 +1879,7 @@
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "path": "~/music"
+      "path": "~/music/recipes"
     },
     {
       "name": "Dimensionidplayerin",
@@ -1989,6 +1990,212 @@
       "locked_code": false,
       "registry_name": "atm",
       "path": "~/economie"
+    },
+    {
+      "name": "Pets",
+      "type": "particle",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pets"
+    },
+    {
+      "name": "Etreunchat",
+      "type": "musicdisc",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etreunchat",
+      "path": "~/music/discs"
+    },
+    {
+      "name": "Shesaidno",
+      "type": "musicdisc",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shesaidno",
+      "path": "~/music/discs"
+    },
+    {
+      "name": "Shesaidnorecipe",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shesaidnorecipe",
+      "path": "~/music/recipes"
+    },
+    {
+      "name": "Etreunchatrecipe",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etreunchatrecipe",
+      "path": "~/music/recipes"
+    },
+    {
+      "name": "Portalblock",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalblock",
+      "path": "~/generation"
+    },
+    {
+      "name": "Superdimension",
+      "type": "dimension",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superdimension",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/generation"
+    },
+    {
+      "name": "Enchantement",
+      "type": "enchantment",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantement",
+      "path": "~/enchantements/light"
+    },
+    {
+      "name": "BullletsrleftDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullletsrleft_display_overlay_ingame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trade",
+      "type": "villagertrade",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade"
+    },
+    {
+      "name": "Enchantementprocedure",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantementprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/enchantements/light"
+    },
+    {
+      "name": "Funkytownrecipe",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funkytownrecipe",
+      "path": "~/music/recipes"
+    },
+    {
+      "name": "Funkytown",
+      "type": "musicdisc",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funkytown",
+      "path": "~/music/discs"
+    },
+    {
+      "name": "Basebread",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basebread",
+      "path": "~/food"
+    },
+    {
+      "name": "Music",
+      "type": "tab",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music",
+      "path": "~/music"
+    },
+    {
+      "name": "Pancake",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pancake",
+      "path": "~/food"
+    },
+    {
+      "name": "Pancakepasta",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pancakepasta",
+      "path": "~/food"
+    },
+    {
+      "name": "Smleting",
+      "type": "enchantment",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smleting",
+      "path": "~/enchantements/smelting"
+    },
+    {
+      "name": "Smeltingprocedure",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltingprocedure",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/enchantements/smelting"
     }
   ],
   "variable_elements": [
@@ -2026,6 +2233,12 @@
       "name": "biome",
       "type": "logic",
       "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "guninhand",
+      "type": "logic",
+      "scope": "player_persistent",
       "value": "false"
     }
   ],
@@ -2080,16 +2293,40 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "she_said_no",
+      "files": [
+        "she-said-no"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "etre_un_chat",
+      "files": [
+        "_-etre-un-chat_-parodie-minecraft-multicort"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "funkytown",
+      "files": [
+        "lipps-inc-funkytown"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.ironbreed.name": "Ironbread",
-      "item.mixerhead.name": "Mixerhead",
       "item.superarmorhelmet.name": "Super Helmet",
+      "item.mixerhead.name": "Mixerhead",
+      "item.ironbreed.name": "Ironbread",
       "lingering_potion.effect.superpotion": "Lingering Superpotion",
-      "item.memorychip.name": "Memorychip",
       "item.superpickaxe.name": "Superpickaxe",
+      "item.memorychip.name": "Memorychip",
       "block.coolthings.cropform_3": "Cropform1",
       "block.coolthings.cropform_2": "Cropform1",
       "block.coolthings.cropform_1": "Cropform1",
@@ -2098,24 +2335,29 @@
       "block.coolthings.cropform_4": "Cropform1",
       "item.coolthings.rush_e.desc": "A russian song",
       "item.coolthings.butterstick": "Butterstick",
+      "item.coolthings.funkytownrecipe": "Rush Erecipepaper",
       "item.sans.name": "Sans Undertale",
       "item.coolthings.goldpasta": "Goldpasta",
       "item.minecraft.potion.effect.superpotion_potion_item": "Superpotion",
       "block.coolthings.plantiside": "Plantiside",
       "item.sansrecipepaper.name": "Sansrecipepaper",
       "item.superarmorlegs.name": "Super Leggings",
+      "item.coolthings.pancakepasta": "Pancakepasta",
       "tile.cropform3.name": "Cropform1",
-      "block.coolthings.crusher": "Crusher",
       "subtitles.bip": "",
+      "block.coolthings.crusher": "Crusher",
       "item.butterstick.name": "Butterstick",
       "item.coolthings.emeraldbread": "Emeraldbreadnoteatable",
       "item.coolthings.superplate": "Superplate",
       "lingering_potion.effect.noneffectpotion": "Lingering Noneffectpotion",
+      "item.coolthings.shesaidno.desc": "By BoywithUke",
       "block.coolthings.atm": "Atm",
       "item.coolthings.undertale_megalovania.desc": "Just sit and profite",
+      "item.coolthings.etreunchat": "Etre un chat",
       "item.coolthings.superfluid_bucket": "Superfluid Bucket",
-      "item.flour.name": "Flour",
       "item.coolthings.mixerhead": "Mixerhead",
+      "item.flour.name": "Flour",
+      "item.coolthings.funkytown": "Funkytown",
       "item.coolthings.ironbread": "Ironbreadnoteatable",
       "item.coolthings.rush_e": "Rush E",
       "item.coolthings.memorychip": "Memorychip",
@@ -2124,10 +2366,12 @@
       "item.minecraft.splash_potion.effect.noneffectpotion_potion_item": "Splash Noneffectpotion",
       "item.coolthings.sans.desc": "LIsten to music it\u0027s big brain time",
       "item.coolthings.pasta": "Pasta",
+      "subtitles.etre_un_chat": "",
       "item.supershovel.name": "Supershovel",
+      "itemGroup.tabmusic": "Music",
       "item.emeraldpasta.name": "Emeraldpasta",
-      "fluid.milk": "Milk",
       "item.coolthings.megalovaniarecipepaper": "megalovaniarecipepaper",
+      "fluid.milk": "Milk",
       "item.coolthings.diamondbread": "Diamondbreadnoteatable",
       "tile.gunbullet.name": "Gunbullet",
       "item.emeraldbreadd.name": "Emeraldbread",
@@ -2144,19 +2388,20 @@
       "tile.plantiside.name": "Plantiside",
       "item.coolthings.sans": "Sans Undertale",
       "block.coolthings.musicstation": "Musicstation",
-      "itemGroup.tabsuperguns": "Superguns",
       "tile.superchest.name": "Supercontainer",
+      "itemGroup.tabsuperguns": "Superguns",
       "tile.crusher.name": "Crusher",
       "advancements.discoverfurnace.title": "Discoverfurnace",
       "splash_potion.effect.noneffectpotion": "Splash Noneffectpotion",
       "item.coolthings.supershovel": "Supershovel",
-      "tile.breadfurnaceblock.name": "Breadfurnaceblock",
       "item.supersword.name": "Supersword",
+      "tile.breadfurnaceblock.name": "Breadfurnaceblock",
       "item.coolthings.superarmor_helmet": "Super Helmet",
       "potion.effect.superpotion": "Superpotion",
       "splash_potion.effect.superpotion": "Splash Superpotion",
       "item.superstick.name": "Superstick",
       "item.gunheader.name": "Gunheader",
+      "subtitles.she_said_no": "",
       "item.coolthings.ironpasta": "Ironpasta",
       "subtitles.blender": "",
       "item.waitcapturer.name": "mini gun",
@@ -2181,7 +2426,9 @@
       "tile.fjjffightnt.name": "tnt boumboum",
       "item.coolthings.superarmor_chestplate": "Super Chestplate",
       "item.coolthings.waitcapturer": "mini gun",
+      "subtitles.funkytown": "",
       "item.coolthings.emptyybullet": "Emptyybullet",
+      "item.coolthings.funkytown.desc": "Lipps Inc - Funkytown",
       "effect.coolthings.noneffectpotion_potion_item": "Non-effect-potion",
       "tile.superblock.name": "Superore",
       "key.mcreator.craftkey": "Craftkey",
@@ -2203,14 +2450,17 @@
       "item.coolthings.flour": "Flour",
       "tile.cropform4.name": "Cropform1",
       "item.superarmorboots.name": "Super Boots",
+      "item.coolthings.basebread": "Basic bread",
       "item.coolthings.superstick": "Superstick",
       "entity.theblacklion.name": "Theblacklion",
       "block.coolthings.milk": "Milk",
       "item.coolthings.goldbread": "Goldbreadnoteatable",
       "item.coolthings.ooftownroadrecipepaper": "ooftownroadrecipepaper",
+      "enchantment.coolthings.enchantement": "Lumière",
       "item.damondbread.name": "Diamondbread",
       "fluid.coolthings.milk": "Milk",
       "item.assaultrifle.name": "Assaultrifle",
+      "item.coolthings.pancake": "Pancake",
       "item.coolthings.bullet": "Bullet",
       "item.coolthings.emeraldpasta": "Emeraldpasta",
       "item.normalbread.name": "Normalbread",
@@ -2229,13 +2479,17 @@
       "item.bullet.name": "Bullet",
       "block.coolthings.fjjffightnt": "tnt boumboum",
       "item.coolthings.emptydisk": "Emptydisk",
+      "item.coolthings.shesaidno": " She said no",
       "item.coolthings.supertool": "Supertool",
       "tile.cropform2.name": "Cropform1",
       "item.coolthings.ooftownroad": "Oof town road",
+      "item.coolthings.superdimension": "Superdimension Portal Igniter",
+      "item.coolthings.etreunchat.desc": "Etre un chat parodie girls like you par Multicort par multicor",
       "block.coolthings.generationblock": "Generationblock",
       "item.ultimmatebread.name": "Ultimmatebread",
       "item.ultimatepasta.name": "Ultimatepasta",
       "item.coolthings.charger": "Charger",
+      "block.coolthings.portalblock": "Portalblock",
       "itemGroup.tabsuperfoods": "Superfoods",
       "item.megalovaniarecipepaper.name": "megalovaniarecipepaper",
       "item.goldpasta.name": "Goldpasta",
@@ -2247,6 +2501,7 @@
       "tipped_arrow.effect.superpotion": "Arrow of Superpotion",
       "item.rushe.name": "Rush E",
       "entity.coolthings.egg": "wait",
+      "item.coolthings.shesaidnorecipe": "Rush Erecipepaper",
       "item.minecraft.lingering_potion.effect.noneffectpotion_potion_item": "Lingering Noneffectpotion",
       "item.sbreadimple.name": "Breadimplenoteatable",
       "item.coolthings.electronic_circuit": "Electronic Circuit",
@@ -2256,6 +2511,7 @@
       "block.coolthings.breadfurnaceblock": "Breadfurnaceblock",
       "item.minecraft.tipped_arrow.effect.superpotion_potion_item": "Arrow of Superpotion",
       "item.superingot.name": "Superingot",
+      "enchantment.coolthings.smleting": "Smelting",
       "block.coolthings.superblock": "Superore",
       "effect.coolthings.superpotion_potion_item": "Superpotion",
       "item.electroniccircuit.name": "Electronic Circuit",
@@ -2275,7 +2531,8 @@
       "block.coolthings.bulletcrafter": "Bulletcrafter",
       "item.record.ooftownroad.desc": "Oof town road like a boss",
       "item.coolthings.superingot": "Superingot",
-      "item.coolthings.rush_e_recipepaper": "Rush Erecipepaper"
+      "item.coolthings.rush_e_recipepaper": "Rush Erecipepaper",
+      "item.coolthings.etreunchatrecipe": "Rush Erecipepaper"
     }
   },
   "foldersRoot": {
@@ -2319,7 +2576,16 @@
       },
       {
         "name": "music",
-        "children": []
+        "children": [
+          {
+            "name": "discs",
+            "children": []
+          },
+          {
+            "name": "recipes",
+            "children": []
+          }
+        ]
       },
       {
         "name": "entite",
@@ -2344,6 +2610,23 @@
       {
         "name": "economie",
         "children": []
+      },
+      {
+        "name": "autres",
+        "children": []
+      },
+      {
+        "name": "enchantements",
+        "children": [
+          {
+            "name": "smelting",
+            "children": []
+          },
+          {
+            "name": "light",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -2354,8 +2637,10 @@
     "description": "there is maythings",
     "author": "IvnoGood",
     "websiteURL": "https://www.youtube.com/channel/UC7CVEl1RqaEgoBykdMu4rNQ",
+    "license": "Not specified",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "logo",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

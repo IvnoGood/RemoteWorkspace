@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "boywithukedisc",
+    "name": " She said no",
+    "description": "By BoywithUke",
+    "creativeTab": {
+      "value": "CUSTOM:Music"
+    },
+    "music": {
+      "value": "CUSTOM:she_said_no"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -10,7 +10,7 @@ import net.ivnogood.maythings.init.CoolthingsModTabs;
 
 public class EmptydiskItem extends Item {
 	public EmptydiskItem() {
-		super(new Item.Properties().tab(CoolthingsModTabs.TAB_SUPER_THINGS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CoolthingsModTabs.TAB_MUSIC).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

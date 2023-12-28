@@ -62,6 +62,76 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coolthings:shesaidnorecipe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coolthings:etreunchatrecipe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coolthings:ooftownroadrecipepaper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coolthings:megalovaniarecipepaper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coolthings:funkytownrecipe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     }
